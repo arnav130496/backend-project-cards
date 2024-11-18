@@ -17,5 +17,5 @@ public interface CardsRepository extends JpaRepository<Cards, Long> {
 
     @Transactional
     @Modifying
-    void deleteByCustomerId(Long customerId);
+    void deleteByCardId(Long cardId);
 }
